@@ -1,0 +1,60 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="myselfie.png"></a>
+        <h1>Collage Web App 
+        <img id="logo_img" src="selfie.jpeg">
+
+
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3>Say "take my selfie" for taking your selfies and to make a Collage</h3>
+            <label>Your voice output : </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+        <button class="btn btn-success" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+
+        
+        <div id="camera"></div>
+        <br>
+
+        <label>All selfies will be displayed here: </label>
+        <div id="resultShow">
+            <div id="result1">
+                <img src="https://cdn.mos.cms.futurecdn.net/JN4id4eQ79r4c4JzHVNtH5.jpg" style="width: 30%;">
+
+            <div id="result2">
+                <img src="https://images.ctfassets.net/3s5io6mnxfqz/7yZUeAFXq7gYSYj5FzHiVI/b644f21a30461bc61d975851f18b4a69/photo-of-person-holding-dslr-camera-2651248.jpg?fm=jpg&w=800&fl=progressive"style="width: 30%;">
+
+            </div>
+            <div id="result3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2MXuRLFhyCt5OFb9sZ3gWd7ruUvGOq12KQ&usqp=CAU" style="width: 30%;">
+
+            </div>
+            </div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+<div class="copy_right_footer">
+    Erika
+</div>
+
+</html>
